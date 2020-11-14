@@ -11,8 +11,9 @@ STF:Same Type Factor = (SameType ? 1.2 : 1)
 
 ME:Move Effect=1.6^(TypeChart[MoveType, OppositeType1] + TypeChart[MoveType, OppositeType2])
 
-APCP:Average PCP = Σ(PCP[x])
-OAPCP:Opposite APCP = Σ(Opposite PCP[x])
+APCP:Average PCP = Σ(PCP[x])*n^(-1)
+
+OAPCP:Opposite APCP = Σ(Opposite PCP[x])*n^(-1)
 
 APCP probably represents average winnability. That is as better as bigger:)
 
