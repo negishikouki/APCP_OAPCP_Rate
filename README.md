@@ -20,3 +20,4 @@ OAPCP probably represents average defeatabilty. That is as better as smaller:(
 
 APCP / OAPCP Rate is a better index for selecting Pokemons to give you an edge in PvP!!
 
+If APCP / OAPCP >= 1.0 then, that pokemon has an edge in PvP.
